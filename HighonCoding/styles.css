@@ -19,11 +19,22 @@ li {
     list-style-type: none;
 }
 
+.logo {
+    margin: 30px 0px 0px 5px;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.menutext {
+    margin: 23px;
+    font-size: 14pt;
+}
 li a {
     display: block;
-    color: white;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
+    color: white
 }
 .current-review-title {
     color: #54585f
@@ -58,20 +69,31 @@ li a {
     margin: 10px auto;
 }
 
-.blocks1 {
-    display:inline-block;
-    width: 150;
-    height: 150;
-    background-color: #dddee0;
-    padding: 5px;
+.spacing {
+    width: 800px;
+    height: 110px;
+    background-color: white;
     margin: 10px auto;
+    position: relative;
 }
 
-.blocks2 {
+.blocks1 {
     display:inline-block;
-    width: 150;
-    height: 150;
+    width: 180;
+    height: 180;
     background-color: #dddee0;
-    padding: 5px;
-    margin: 10px auto;
+    padding: 10px;
+    margin: 10px 30px;
+    text-align: center;
+    top: 10px;
+}
+
+.blockstext {
+    margin:50px auto;
+}
+
+.blockstext1 {
+    margin:100px auto;
+    font-size: 8pt;
+    color: grey
 }

@@ -1,0 +1,52 @@
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #banner {
+        display: none;
+    }
+
+    #products {
+        flex-direction: column;
+    }
+    #products img {
+        width: 400px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1280px) {
+    #banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    #products img {
+        width: 130px;
+    }
+    
+}
+#menu {
+    list-style: none;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px 25px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

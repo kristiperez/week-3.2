@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #52a7fa;
+}
+
+ul li {
+    display: inline;
+}
+
+li {
+    float: left;
+    color: white;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.current-review-title {
+    color: #54585f
+}
+.current-reviews {
+    font-size: 11pt;
+    width: 860px;
+    height: 110px;
+    background-color: #dddee0;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.comments {
+    width: 860px;
+    height: 20px;
+    background-color: #f39018;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: left;
+    color: white
+}
+
+.article-title {
+    font-size: 14pt;
+    color: #08c;
+}
+.articles {
+    font-size: 11pt;
+    width: 860px;
+    margin: 10px auto;
+}
+
+.blocks1 {
+    display:inline-block;
+    width: 150;
+    height: 150;
+    background-color: #dddee0;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.blocks2 {
+    display:inline-block;
+    width: 150;
+    height: 150;
+    background-color: #dddee0;
+    padding: 5px;
+    margin: 10px auto;
+}

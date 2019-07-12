@@ -1,0 +1,51 @@
+
+.current-review-title {
+    color: #54585f
+}
+.current-reviews {
+    font-size: 11pt;
+    width: 860px;
+    height: auto;
+    background-color: #dddee0;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.article-title {
+    font-size: 14pt;
+    color: #08c;
+}
+.articles {
+    font-size: 11pt;
+    width: 860px;
+    margin: 15px auto;
+}
+
+.badge-container {
+    width: 860px;
+    margin: 5px auto;
+}
+
+#blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.bg-blue {
+    background-color: #52a6fa
+}
+
+.bg-gray {
+    background-color: #dddee1;
+    margin: 10px;
+}
+
+.card-body {
+    color: gray;
+}
+
+.card-text:last-child {
+    font-size: 8pt;
+}
